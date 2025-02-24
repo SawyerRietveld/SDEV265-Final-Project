@@ -1,0 +1,5 @@
+table {border-collapse: collapse; width: 100%;}
+td, th{border: 1px solid #dddddd; text-align: left; padding: 8px;}
+#location1{height: 300px; width: 400px; background-image: url(location1.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+#location2{height: 300px; width: 400px; background-image: url(location2.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+#location3{height: 300px; width: 400px; background-image: url(location3.jpg); background-size: 100% 100%; background-repeat: no-repeat;}

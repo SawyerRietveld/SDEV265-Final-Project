@@ -1,10 +1,12 @@
 table {border-collapse: collapse; width: 100%;}
 td, th{border: 1px solid #dddddd; text-align: left; padding: 8px;}
 #location1{height: 300px; width: 400px; background-image: url(location1.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
-#location2{height: 300px; width: 400px; background-image: url(location2.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+#location2{text-align: right; height: 300px; width: 400px; background-image: url(location2.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
 #location3{height: 300px; width: 400px; background-image: url(location3.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+#locationsWrapper{padding-left: 1em; padding-bottom: 1em; padding-top: .1em; background-color: #c0b7b1; background-repeat: no-repeat; height: 365px; width: 430px;}
+#divider{padding-top: 1em; padding-bottom: 1em;}
 
-h1 { background-color: #c0b7b1; color: #433E3F; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 1.5em;}
+h1 { background-color: #c0b7b1; color: #433E3F; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 1.5em; padding: .5em;}
 h1 a { text-decoration: none;}
 * { box-sizing: border-box; }
 h1 
@@ -12,13 +14,13 @@ h1 a:link { color: #433E3F;}
 h1 a:visited { color: #433E3F;}
 h1 a:hover { color: #3344DD;}
 
-nav { background-color: #c0b7b1; text-align: center;
+nav { background-color: #7A7265; text-align: center;
     font-size: 1.2em; }
 nav a { text-decoration: none;}
 * { box-sizing: border-box; }
 nav a:link { color: #000000;}
 nav a:visited { color: #000000;}
-nav a:hover { color: #7A7265;}
+nav a:hover { color: #c0b7b1;}
 nav ul {display: flex; list-style-type: none; padding-left: 0; margin: 0; flex-direction: row;}
 nav li {padding-top: .8em; padding-bottom: .8em; padding-left: 1em; padding-right: 1em; width: 100%; border-bottom: solid 1px;}
 
